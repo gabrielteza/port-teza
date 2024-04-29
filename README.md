@@ -16,6 +16,3 @@ Este projeto é um portfolio pessoal desenvolvido utilizando ReactJS. Ele foi cr
 - **Responsividade**: O portfolio é responsivo, adaptando-se a diferentes tamanhos de tela para garantir uma boa experiência do usuário em dispositivos móveis e desktops.
 - **Rotas**: Utilizei React Router para navegação entre as diferentes seções do portfolio de forma suave e eficiente.
 
-## Como Usar
-
-1. **Clone o repositório**: 
