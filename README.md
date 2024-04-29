@@ -16,3 +16,6 @@ Este projeto é um portfolio pessoal desenvolvido utilizando ReactJS. Ele foi cr
 - **Responsividade**: O portfolio é responsivo, adaptando-se a diferentes tamanhos de tela para garantir uma boa experiência do usuário em dispositivos móveis e desktops.
 - **Rotas**: Utilizei React Router para navegação entre as diferentes seções do portfolio de forma suave e eficiente.
 
+## Link para acessar
+
+Aqui está o link para ver o site : https://port-teza.vercel.app/
