@@ -86,39 +86,33 @@ const StyledLink = styled.a`
   display: contents;
 `;
 
-
-
-
 export default function Infos() {
   return (
     <div className="infos">
       <div className="languages">
         <h3>EN - Intermediary</h3>
-        <h3>PT-BR - Nature Speaker</h3> <h2 className="tit">Languages</h2>
+        <h3>PT-BR - Nature Speaker</h3> <h2 className="tit">🌍 Languages</h2>
       </div>
       <hr />
-      <SocialContainer>
-        <StyledLink href="https://www.instagram.com/gabzz.teza/" target="_blank">
-          <Button>
-            Instagram
-            <FaInstagram size="2rem" className="icon" />
-          </Button>
-        </StyledLink>
+      <SocialContainer className="socialcontainer">
         <StyledLink href="https://github.com/gabrielteza" target="_blank">
           <Button>
             GitHub
             <FaGithub size="2rem" className="icon2" />
           </Button>
         </StyledLink>
-        <StyledLink href="https://www.linkedin.com/in/gabriel-teza-815138291/" target="_blank">
+        <StyledLink
+          href="https://www.linkedin.com/in/gabriel-teza-815138291/"
+          target="_blank"
+        >
           <Button id="linkedin">
-          <span>Linkedin</span>
+            <span>Linkedin</span>
             <FaLinkedin size="2rem" className="icon3" />
           </Button>
         </StyledLink>
         <a target="_blank" id="inv">
           <Button id="">
-          <span>aaa</span>
+            <span>aaa</span>
           </Button>
         </a>
       </SocialContainer>
