@@ -90,8 +90,8 @@ export default function Infos() {
   return (
     <div className="infos">
       <div className="languages">
-        <h3>EN - Intermediary</h3>
-        <h3>PT-BR - Nature Speaker</h3> <h2 className="tit">🌍 Languages</h2>
+        <h3>EN - Intermediario</h3>
+        <h3>PT-BR - Língua Nativa</h3> <h2 className="tit">🌍 Línguas</h2>
       </div>
       <hr />
       <SocialContainer className="socialcontainer">
@@ -122,9 +122,9 @@ export default function Infos() {
         <h3 className="subsocial">Instagram</h3>
       </div> */}
       <div className="education">
-        <h2>🎓 Education</h2>
-        <h3>Systems Development Technician - ETEC Anna de Oliveira Ferraz</h3>
-        <h3>Bachelor of Science in Computer Science</h3>
+        <h2>🎓 Educação</h2>
+        <h3>Tecnico em Desenvolvimento de Sistemas - ETEC Anna de Oliveira Ferraz</h3>
+        <h3>Bacharelado em Ciencia da Computação</h3>
       </div>
     </div>
   );

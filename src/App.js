@@ -1,16 +1,21 @@
 import "./App.css";
-import Header from "./components/header/Header";
-import Infos from "./components/infos/Infos";
-import Navbar from "./components/navbar/Navbar";
 import ParticlesComponent from "./components/particle/Particle";
+import About from "./pages/about/About";
+import Content from "./pages/content-home/content"; // Import com a primeira letra maiúscula
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-        <ParticlesComponent id="particles"/>
-        <Navbar/>
-        <Header />
-        <Infos />
+      <ParticlesComponent id="particles"/>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Content />} /> 
+        </Routes> 
+        <Routes>
+          <Route path="/sobre-mim" element={<About />} />
+        </Routes> 
+      </Router>
     </div>
   );
 }
