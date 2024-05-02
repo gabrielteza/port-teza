@@ -1,0 +1,22 @@
+.container-about{
+    margin-top: 15rem;
+    
+
+}
+
+.about-text{
+    text-align: center;
+    font-size: 20px;
+    padding: 7rem 8rem;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.container-box{
+    height: 50rem;
+    width: 110rem;
+    margin-left: 4rem;    
+    background-color: #333;
+    margin-bottom: 3rem;
+    border-radius: 40px;
+}

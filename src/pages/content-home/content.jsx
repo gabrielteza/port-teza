@@ -3,6 +3,9 @@ import Header from '../../components/header/Header'
 import ParticlesComponent from '../../components/particle/Particle'
 import Navbar from '../../components/navbar/Navbar'
 import Infos from "../../components/infos/Infos";
+import About from '../about/About';
+import Projetos from '../projetos/Projetos';
+import Contato from '../contato/Contato';
 
 
 export default function content() {
@@ -12,6 +15,9 @@ export default function content() {
       <Navbar/>
       <Header />     
       <Infos />
+      <About/>
+      <Projetos/>
+      <Contato/>
   </div>
 
   )

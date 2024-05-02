@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import './nav.css'; 
+import React, { useState } from "react";
+import "./nav.css";
+import { Link } from "react-scroll";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,18 +15,58 @@ function NavBar() {
         <button className="navbar-toggle" onClick={toggleNavbar}>
           <span className="navbar-toggle-icon">&#9776;</span>
         </button>
-        <ul className={`navbar-menu ${isOpen ? 'open' : ''}`}>
+        <ul className={`navbar-menu ${isOpen ? "open" : ""}`}>
           <li className="navbar-item">
-            <a href="/" className="navbar-link">Pagina Inicial</a>
+            <Link
+              activeClass="active"
+              to="header"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="navbar-link"
+            >
+              Pagina Inicial
+            </Link>
           </li>
           <li className="navbar-item">
-            <a href="/about" className="navbar-link">Sobre Mim</a>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="navbar-link"
+            >
+              Sobre mim
+            </Link>
           </li>
           <li className="navbar-item">
-            <a href="#services" className="navbar-link">Projetos</a>
+            <Link
+              activeClass="active"
+              to="projetos"
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration={500}
+              className="navbar-link"
+            >
+              Projetos
+            </Link>
           </li>
           <li className="navbar-item">
-            <a href="#contact" className="navbar-link">Contato</a>
+            <Link
+              activeClass="active"
+              to="contato"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="navbar-link"
+            >
+              Contato
+            </Link>
           </li>
         </ul>
       </div>
