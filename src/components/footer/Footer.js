@@ -1,5 +1,5 @@
 // Filename - components/Footer.js
-
+/*  
 import React from "react";
 import {
 	Box,
@@ -119,3 +119,4 @@ const Footer = () => {
 	);
 };
 export default Footer;
+ */

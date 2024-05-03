@@ -1,5 +1,5 @@
 // components/FooterStyles.js
-
+/*  
 import styled from "styled-components";
 
 export const Box = styled.div`
@@ -20,7 +20,7 @@ export const FooterContainer = styled.div`
 	justify-content: center;
 	max-width: 1000px;
 	margin: 0 auto;
-	/* background: red; */
+	
 `;
 
 export const Column = styled.div`
@@ -64,3 +64,4 @@ export const Heading = styled.p`
 	margin-bottom: 40px;
 	font-weight: bold;
 `;
+*/
