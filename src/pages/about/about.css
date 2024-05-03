@@ -1,24 +1,19 @@
 .container-about {
-  margin-top: 15rem;
+  margin-top: 5rem; /* Reduzido para melhorar a aparência em telas menores */
 }
 
 .about-text {
   text-align: center;
   font-size: 20px;
-  padding: 7rem 8rem;
-  margin-right: 300px;
-  margin-left: 300px;
+  padding: 2rem; /* Reduzido para melhorar a aparência em telas menores */
 }
 
 .container-box {
-  height: 50rem;
-  width: 110rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  width: 90%; /* Usando largura percentual para se adaptar melhor */
+  max-width: 900px; /* Limitando a largura máxima para melhor legibilidade */
+  margin: 0 auto; /* Centralizando o container */
   background-color: #333;
-  margin-bottom: 3rem;
   border-radius: 40px;
-  background: #333;
   box-shadow: 28px 28px 56px #423d3d, -28px -28px 56px #656060;
   background-image: url("../../img/blurry-gradient-haikei.png");
   background-position: center;
@@ -33,35 +28,32 @@
   margin-top: 10px;
 }
 
-@media screen and (max-width: 768px) {
-  .container-box {
-    height: auto; /* Volte à altura padrão */
-    width: auto; /* Volte à largura padrão */
-    margin-right: 0; /* Volte à margem padrão */
-  }
-
-  .about-text {
-    font-size: 15px; /* Defina o tamanho de fonte desejado */
-    margin-left: 0; /* Volte à margem padrão */
-    font-weight: 500; /* Mantenha o peso da fonte, se desejado */
-  }
+.about-text-h1 {
+  color: #cfc37c;
 }
+
+/* Media Query para telas menores */
 @media screen and (max-width: 768px) {
-  .container-box {
-    height: auto; /* Volte à altura padrão */
-    width: auto; /* Volte à largura padrão */
-    margin-right: 0; /* Volte à margem padrão */
-  }
-
   .about-text {
-    margin-left: 0;
-    font-weight: 500;
-    font-size: 30px;
+    font-size: 16px;
+    padding: 1rem; /* Reduzido para melhorar a aparência em telas menores */
   }
 
-  .about-text p {
-    font-size: 15px; /* Defina o tamanho de fonte desejado */
-    margin-left: 0; /* Volte à margem padrão */
-    font-weight: 400; /* Mantenha o peso da fonte, se desejado */
+  .container-box {
+    border-radius: 20px;
+    margin-left: 1.3rem;
+  }
+    
+  .about-text-p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffd900;
+  }
+
+  .about-text-h1 {
+    color: #cfc37c;
+    font-size: 2rem;
+    font-weight: bold;
   }
 }
