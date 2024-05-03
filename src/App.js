@@ -1,7 +1,6 @@
 import "./App.css";
 import Footer from "./components/footer/Footer";
 import ParticlesComponent from "./components/particle/Particle";
-import About from "./pages/about/About";
 import Content from "./pages/content-home/content"; // Import com a primeira letra maiúscula
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -14,7 +13,6 @@ function App() {
           <Route exact path="/" element={<Content />} /> 
         </Routes> 
       </Router>
-      <Footer/>
     </div>
   );
 }
