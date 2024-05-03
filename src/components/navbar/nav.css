@@ -2,6 +2,10 @@
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    cursor: pointer;
   }
   
   .navbar-container {
@@ -9,6 +13,7 @@
     align-items: center;
     justify-content: center;
     max-width: 1200px;
+    height: 50px;
     margin-left: -5rem;
   }
   
@@ -49,14 +54,18 @@
   
   @media (max-width: 768px) {
 
-
+    .navbar {
+      position: fixed;
+      width: 100%;
+      top: 0;
+    }
     .navbar-container {
       flex-direction: column;
     }
     
     .navbar-toggle {
         margin-top: 10px; 
-        margin-left: 100px;
+        margin-right: 60rem;
         display: block; 
         color: white;
     }
@@ -66,10 +75,14 @@
       align-items: flex-start;
       padding-left: 20px;
       display: none;
-    }
+        }
   
     .navbar-menu.open {
       display: flex;
+      margin-right: 45rem;
+      margin-top: 10rem;
+      background-color: #333;
+      width: 30rem;
     }
   
     .navbar-item {

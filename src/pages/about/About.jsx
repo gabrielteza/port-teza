@@ -9,48 +9,32 @@ export default function About() {
         <div className="container-box">
         <div className="about-text">
           <h1
-            style={{ fontWeight: "bolder", fontSize: "4rem", color: "violet" }}
+            style={{ fontWeight: "bolder", fontSize: "4rem", color: "#cfc37c" }}
           >
             {" "}
             <Typewriter
-              words={["Olá! Meu nome é Gabriel"]}
+              words={["Olá! Meu nome é Gabriel", "Desenvolvedor Web"]}
               loop={0}
               cursor
-              cursorStyle="_"
+              cursorStyle="<"
               typeSpeed={100}
               deleteSpeed={80}
               delaySpeed={1000}
             />
           </h1>
           <br />
-          <p
-            style={{
-              fontWeight: "bolder",
-              fontSize: "20px",
-              color: "white",
-              marginTop: "10px",
-            }}
+          <p className="about-text-p"
           >
             Tenho 18 anos e sou apaixonado por programação.
           </p>
           <p
-            style={{
-              fontWeight: "bolder",
-              fontSize: "20px",
-              color: "white",
-              marginTop: "10px",
-            }}
+           className="about-text-p"
           >
             Desde que me lembro, a tecnologia sempre me fascinou e aprender a
             criar software tornou-se uma das minhas paixões.
           </p>
           <p
-            style={{
-              fontWeight: "bolder",
-              fontSize: "20px",
-              color: "white",
-              marginTop: "10px",
-            }}
+            className="about-text-p"
           >
             {" "}
             Atualmente, estou focado em desenvolver minhas habilidades como
@@ -60,24 +44,14 @@ export default function About() {
             tecnologia.
           </p>{" "}
           <p
-            style={{
-              fontWeight: "bolder",
-              fontSize: "20px",
-              color: "white",
-              marginTop: "10px",
-            }}
+           className="about-text-p"
           >
             {" "}
             Meu maior sonho é conseguir meu primeiro emprego profissional na
             área de programação.
           </p>{" "}
           <p
-            style={{
-              fontWeight: "bolder",
-              fontSize: "20px",
-              color: "white",
-              marginTop: "10px",
-            }}
+           className="about-text-p"
           >
             Estou empenhado em trabalhar duro para atingir esse objetivo,
             buscando oportunidades de estágio ou emprego onde possa aplicar
@@ -85,12 +59,7 @@ export default function About() {
             profissionalmente.
           </p>{" "}
           <p
-            style={{
-              fontWeight: "bolder",
-              fontSize: "20px",
-              color: "white",
-              marginTop: "10px",
-            }}
+           className="about-text-p"
           >
             Estou animado para ver o que o futuro reserva para minha jornada
             profissional de programação e estou pronto para os desafios que

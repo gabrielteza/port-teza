@@ -3,6 +3,10 @@ import './contato.css'
 
 export default function Contato() {
   return (
-    <div className='contato' id='contato'>Contato</div>
+    <div className='contato' id='contato'>
+      <div className="container-contato">
+        
+      </div>
+    </div>
   )
 }
