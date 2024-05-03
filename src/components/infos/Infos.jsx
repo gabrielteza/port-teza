@@ -98,7 +98,7 @@ export default function Infos() {
         <StyledLink href="https://github.com/gabrielteza" target="_blank">
           <Button>
             GitHub
-            <FaGithub size="2rem" className="icon2" />
+            <FaGithub size="2rem" className="icon2" style={{zIndex: '1'}}/>
           </Button>
         </StyledLink>
         <StyledLink
@@ -107,7 +107,7 @@ export default function Infos() {
         >
           <Button id="linkedin">
             <span>Linkedin</span>
-            <FaLinkedin size="2rem" className="icon3" />
+            <FaLinkedin size="2rem" className="icon3" style={{zIndex: '1'}}/>
           </Button>
         </StyledLink>
         <a target="_blank" id="inv">

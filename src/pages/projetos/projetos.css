@@ -102,4 +102,25 @@
   .container-btn {
     margin-top: 1rem;
   }
+
+
+}
+
+@media screen and (max-width: 373px) {
+  .container-btn {
+    white-space: nowrap;
+    margin-left: -34px;
+   
+  }
+
+  .btn-project{
+    margin-left: 6px;
+  }
+
+  .grid-item {
+    width: 70%;
+    margin-top: 2rem;
+    margin-left: 23px;
+  }
+
 }

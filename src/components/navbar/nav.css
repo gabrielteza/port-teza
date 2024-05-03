@@ -6,6 +6,7 @@
   width: 100%;
   top: 0;
   cursor: pointer;
+  z-index: 999;
 }
 
 .navbar-container {
@@ -31,6 +32,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+
 }
 
 .navbar-item {
@@ -95,5 +97,5 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
   }
-}
 
+}
