@@ -109,12 +109,12 @@
 @media screen and (max-width: 373px) {
   .container-btn {
     white-space: nowrap;
-    margin-left: -34px;
+    margin-left: -31px;
    
   }
 
   .btn-project{
-    margin-left: 6px;
+    margin-left: 5px;
   }
 
   .grid-item {
