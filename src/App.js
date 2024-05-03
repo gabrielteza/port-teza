@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/footer/Footer";
 import ParticlesComponent from "./components/particle/Particle";
 import About from "./pages/about/About";
 import Content from "./pages/content-home/content"; // Import com a primeira letra maiúscula
@@ -12,10 +13,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Content />} /> 
         </Routes> 
-        <Routes>
-          <Route path="/sobre-mim" element={<About />} />
-        </Routes> 
       </Router>
+      <Footer/>
     </div>
   );
 }
