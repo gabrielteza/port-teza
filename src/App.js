@@ -13,6 +13,7 @@ function App() {
           <Route exact path="/" element={<Content />} /> 
         </Routes> 
       </Router>
+      <Footer />
     </div>
   );
 }

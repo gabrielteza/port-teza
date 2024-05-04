@@ -28,6 +28,8 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   margin-bottom: 3rem;
   margin-top: 2rem;
+  transition: transform 0.3s ease;
+
 }
 
 .grid-titulo {
@@ -85,6 +87,11 @@
   color: rgb(214, 10, 214);
   font-weight: bold;
   border-radius: 6px;
+}
+
+.grid-item:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.10, 1.10);
 }
 
 /* Media Query para telas menores */

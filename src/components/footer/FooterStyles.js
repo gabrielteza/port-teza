@@ -1,18 +1,17 @@
-// components/FooterStyles.js
-/*  
 import styled from "styled-components";
 
 export const Box = styled.div`
+	margin-top: -120px;
 	padding: 5% 2.5%;
 	background: black;
 	// position: absolute;
 	bottom: 0;
 	width: 95%;
-
 	@media (max-width: 1000px) {
 		// padding: 70px 30px;
 	}
 `;
+
 
 export const FooterContainer = styled.div`
 	display: flex;
@@ -20,7 +19,9 @@ export const FooterContainer = styled.div`
 	justify-content: center;
 	max-width: 1000px;
 	margin: 0 auto;
-	
+	padding-block: 4rem 2rem;
+	text-align: center;
+	row-gap: 5rem;
 `;
 
 export const Column = styled.div`
@@ -64,4 +65,3 @@ export const Heading = styled.p`
 	margin-bottom: 40px;
 	font-weight: bold;
 `;
-*/

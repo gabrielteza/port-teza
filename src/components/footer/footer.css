@@ -1,0 +1,19 @@
+.navbar-link {
+    cursor: pointer;
+  }
+
+.social-icons {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  .social-icons a {
+    margin-right: 20px; /* Adicionando margem entre os ícones */
+    transition: transform 0.4s;
+    color: #fff;
+  }
+  
+  .social-icons a:hover {
+    transform: translateY(-0.25rem);
+  }
+  

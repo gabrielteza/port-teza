@@ -2,7 +2,7 @@ import React from 'react'
 import './contact-form.css'
 
 const ContactForm = () => {
-  const [formStatus, setFormStatus] = React.useState('Send')
+  const [formStatus, setFormStatus] = React.useState('Enviar Mensagem')
   const onSubmit = (e) => {
     e.preventDefault()
     setFormStatus('Submitting...')
